@@ -11,7 +11,7 @@ const Accordion = ({ question }) => {
   return (
     <div className=' mb-2 border-red-500 border rounded p-4'>
         <div className="flex justify-between items-center mb-2 cursor-pointer" onClick={onClickHandler}>
-            <h5 className={`text-xl font-semibold ${accordion ? 'text-red-500' : 'text-black'}`}>{question}</h5>
+            <h5 className={`md:text-xl font-semibold ${accordion ? 'text-red-500' : 'text-black'}`}>{question}</h5>
             {accordion ? 
             <FaMinus size={23} className={`${accordion ? 'text-red-500' : 'text-black'}`}/> :
             <FaPlus size={23} className={`${accordion ? 'text-red-500' : 'text-black'}`}/> 

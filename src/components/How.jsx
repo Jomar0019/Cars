@@ -13,60 +13,60 @@ import Lambo from '../assets/Logo/Lamborghini.png'
 
 const How = () => {
   return (
-    <div className='w-full h-screen bg-[#f5f5f5]'>
+    <div className='w-full h-full md:h-screen bg-[#f5f5f5] py-12'>
         <div className="flex justify-center items-center h-full">
             <div className='flex flex-col'>
                 <div className='text-center'>
-                    <h2 className='text-5xl font-bold'>How it work</h2>
-                    <p className='w-1/2 mx-auto my-5'>Lorem ipsum, dolor sit amet consectetur adipisicing elit. Sint dolorem ipsa. Eligendi distinctio laboriosam!</p>
+                    <h2 className='text-3xl md:text-5xl font-bold'>How it work</h2>
+                    <p className='md:w-1/2 mx-auto my-5'>Lorem ipsum, dolor sit amet consectetur adipisicing elit. Sint dolorem ipsa. Eligendi distinctio laboriosam!</p>
                 </div>
-                <div className="max-w-[1000px] mx-auto grid grid-cols-3 gap-6 mb-40">
-                    <div className='flex flex-col justify-center items-center bg-white rounded-md shadow-md py-12'>
+                <div className="max-w-[1000px] mx-auto grid grid-cols-1  md:grid-cols-3 gap-3 md:gap-6 mb-20 md:mb-40  p-4">
+                    <div className='flex flex-col justify-center items-center bg-white rounded-md shadow-md py-6 md:py-12'>
                 
                         <div>
-                            <img src={CS} alt="" className='w-18 mb-6' />
+                            <img src={CS} alt="" className='w-18 mb-3 md:mb-6' />
                         </div>
-                        <div className='text-center'>
-                            <h3 className='text-2xl font-bold mb-3'>Customer Support</h3>
-                            <p className='w-3/4 mx-auto'>Lorem ipsum dolor sit amet consectetur adipisicing elit. Nulla neque fugit consectetur nam facilis eaque. Lorem ipsum dolor sit</p>
+                        <div className='text-center px-5 md:px-0'>
+                            <h3 className='text-xl md:text-2xl font-bold mb-3'>Customer Support</h3>
+                            <p className=' md:w-3/4 mx-auto'>Lorem ipsum dolor sit amet consectetur adipisicing elit. Nulla neque fugit consectetur nam facilis eaque. Lorem ipsum dolor sit</p>
                         </div>
 
                     </div>
 
-                    <div className='flex flex-col justify-center items-center bg-white rounded-md shadow-md py-12'>
+                    <div className='flex flex-col justify-center items-center bg-white rounded-md shadow-md py-6 md:py-12'>
                 
                         <div>
-                            <img src={BP} alt="" className='w-18 mb-6' />
+                            <img src={BP} alt="" className='w-18 mb-3 md:mb-6' />
                         </div>
-                        <div className='text-center'>
-                            <h3 className='text-2xl font-bold mb-3'>Best Price</h3>
-                            <p className='w-3/4 mx-auto'>Lorem ipsum dolor sit amet consectetur adipisicing elit. Nulla neque fugit consectetur nam facilis eaque. Lorem ipsum dolor sit</p>
+                        <div className='text-center px-5 md:px-0'>
+                            <h3 className='text-xl md:text-2xl font-bold mb-3'>Best Price</h3>
+                            <p className='md:w-3/4 mx-auto'>Lorem ipsum dolor sit amet consectetur adipisicing elit. Nulla neque fugit consectetur nam facilis eaque. Lorem ipsum dolor sit</p>
                         </div>
 
                     </div>
 
-                    <div className='flex flex-col justify-center items-center bg-white rounded-md shadow-md py-12'>
+                    <div className='flex flex-col justify-center items-center bg-white rounded-md shadow-md py-6 md:py-12'>
                 
                         <div>
-                            <img src={Loc} alt="" className='w-18 mb-6' />
+                            <img src={Loc} alt="" className='w-18 mb-3 md:mb-6' />
                         </div>
-                        <div className='text-center'>
-                            <h3 className='text-2xl font-bold mb-3'>Many Location</h3>
-                            <p className='w-3/4 mx-auto'>Lorem ipsum dolor sit amet consectetur adipisicing elit. Nulla neque fugit consectetur nam facilis eaque. Lorem ipsum dolor sit</p>
+                        <div className='text-center px-5 md:px-0'>
+                            <h3 className='text-xl md:text-2xl font-bold mb-3'>Many Location</h3>
+                            <p className='md:w-3/4 mx-auto'>Lorem ipsum dolor sit amet consectetur adipisicing elit. Nulla neque fugit consectetur nam facilis eaque. Lorem ipsum dolor sit</p>
                         </div>
 
                     </div>
                     
                 </div>
                 <div className='w-full grid grid-cols-4 md:grid-cols-8 items-center gap-5 bg-white py-5'>
-                    <img src={Alfa} alt="" />
-                    <img src={Audi} alt="" />
-                    <img src={Bentley} alt="" />
-                    <img src={Tesla} alt="" />
-                    <img src={Dodge} alt="" />
-                    <img src={Chev} alt="" />
-                    <img src={BMW} alt="" />
-                    <img src={Lambo} alt="" />
+                    <img src={Alfa} alt="" className='object-contain' />
+                    <img src={Audi} alt="" className='object-contain' />
+                    <img src={Bentley} alt="" className='object-contain' />
+                    <img src={Tesla} alt="" className='object-contain' />
+                    <img src={Dodge} alt="" className='object-contain' />
+                    <img src={Chev} alt="" className='object-contain' />
+                    <img src={BMW} alt="" className='object-contain' />
+                    <img src={Lambo} alt="" className='object-contain' />
                 </div>
             </div>
             

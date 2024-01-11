@@ -1,12 +1,6 @@
 import React from 'react'
 import CarHome from '../assets/home-bg.png'
 const Home = () => {
-
-  let dateToday = new Date();
-
-  let defaultDate = new Date();
-  defaultDate.setDate(defaultDate.getDate() + 7)
-
   return (
     <div className='w-full h-screen bg-[#f5f5f5]'>
       <div className="max-w-[1400px] mx-auto flex justify-center md:justify-start items-center h-full">
@@ -23,44 +17,54 @@ const Home = () => {
             <img src={CarHome} alt="CarBG" className='object-cover w-full'/>
         </div>
 
-        <div className="absolute grid grid-cols-3 md:grid-cols-4 gap-1 md:gap-4 items-center bg-white shadow-lg md:rounded-lg py-5 px-2 md:p-10 w-full md:w-1/2 -bottom-20 md:right-1/4 md:left-1/4 md:-bottom-16">
-          
-          <div>
-            <div className='flex flex-col justify-between'>
-              <h3 className='md:text-lg'>Location</h3>
-              <div className=''>
-                <select name="" id="" className='w-full border text-sm md:text-base border-gray-300 px-2 py-1 rounded-md'>
-                  <option value="">Select Location</option>
-                  <option value="">Location 1</option>
-                  <option value="">Location 2</option>
-                  <option value="">Location 3</option>
-                </select>
+        <div className='absolute -bottom-24 md:right-1/4 md:left-1/4 md:-bottom-16 w-full md:w-1/2 bg-white shadow-lg md:rounded-lg py-5 px-2 md:p-10 '>
+          <h3 className='text-xl mb-2'>Looking for a car?</h3>
+          <div className="grid grid-cols-3 md:grid-cols-4 gap-1 md:gap-4 items-center">
+            <div>
+              <div className='flex flex-col justify-between'>
+                <div className=''>
+                  <select name="" id="" className='w-full border text-sm md:text-base border-gray-300 px-4 py-2 rounded-md'>
+                    <option value="">Select Brand</option>
+                    <option value="">Brand 1</option>
+                    <option value="">Brand 2</option>
+                    <option value="">Brand 3</option>
+                  </select>
+                </div>
               </div>
             </div>
-          </div>
 
-          <div>
-            <div className='flex flex-col justify-between'>
-              <h3 className=' md:text-lg'>Pick-up Date</h3>
-              <div className='flex items-center gap-1'>
-                <input type="date" name='' id='' className='w-full px-2 py-1 border border-gray-300 rounded-md' value={dateToday.toLocaleDateString('en-CA')}/>
+            <div>
+              <div className='flex flex-col justify-between'>
+                <div className=''>
+                  <select name="" id="" className='w-full border text-sm md:text-base border-gray-300 px-4 py-2 rounded-md'>
+                    <option value="">Select Model</option>
+                    <option value="">Model 1</option>
+                    <option value="">Model 2</option>
+                    <option value="">Model 3</option>
+                  </select>
+                </div>
               </div>
             </div>
-          </div>
 
-          <div>
-            <div className='flex flex-col justify-between'>
-              <h3 className=' md:text-lg'>Return Date</h3>
-              <div className='flex items-center gap-1'>
-                <input type="date" name='' id='' className='w-full px-2 py-1 border border-gray-300 rounded-md' value={defaultDate.toLocaleDateString('en-CA')}/>
+            <div>
+              <div className='flex flex-col justify-between'>
+                <div className=''>
+                  <select name="" id="" className='w-full border text-sm md:text-base border-gray-300 px-4 py-2 rounded-md'>
+                    <option value="">Select Year</option>
+                    <option value="">Year 1</option>
+                    <option value="">Year 2</option>
+                    <option value="">Year 3</option>
+                  </select>
+                </div>
               </div>
             </div>
-          </div>
 
-          <div className='text-center col-span-3 md:col-span-1'>
-            <button className='w-full text-sm md:text-base bg-red-500 text-white py-4 px-8 rounded-md'>Search</button>
+            <div className='text-center col-span-3 md:col-span-1'>
+              <button className='w-full text-sm md:text-base bg-red-500 text-white py-2 px-8 rounded-md'>Search vehicle</button>
+            </div>
           </div>
         </div>
+
       </div>
     </div>
   )
