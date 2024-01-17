@@ -13,22 +13,22 @@ import Lambo from '../assets/Logo/Lamborghini.png'
 
 const How = () => {
   return (
-    <div className='w-full h-full md:h-screen bg-[#f5f5f5] py-12'>
+    <div className='w-full md:h-screen bg-[#f5f5f5] py-12'>
         <div className="flex justify-center items-center h-full">
             <div className='flex flex-col'>
                 <div className='text-center'>
                     <h2 className='text-3xl md:text-5xl font-bold'>How it work</h2>
-                    <p className='md:w-1/2 mx-auto my-5'>Lorem ipsum, dolor sit amet consectetur adipisicing elit. Sint dolorem ipsa. Eligendi distinctio laboriosam!</p>
+                    <p className='md:w-1/2 text-sm md:text-base mx-auto my-3 md:my-5'>Lorem ipsum, dolor sit amet consectetur adipisicing elit. Sint dolorem ipsa. Eligendi distinctio laboriosam!</p>
                 </div>
                 <div className="max-w-[1000px] mx-auto grid grid-cols-1  md:grid-cols-3 gap-3 md:gap-6 mb-20 md:mb-40  p-4">
                     <div className='flex flex-col justify-center items-center bg-white rounded-md shadow-md py-6 md:py-12'>
                 
                         <div>
-                            <img src={CS} alt="" className='w-18 mb-3 md:mb-6' />
+                            <img src={CS} alt="" className='w-12 md:w-18 mb-1 md:mb-6' />
                         </div>
                         <div className='text-center px-5 md:px-0'>
-                            <h3 className='text-xl md:text-2xl font-bold mb-3'>Customer Support</h3>
-                            <p className=' md:w-3/4 mx-auto'>Lorem ipsum dolor sit amet consectetur adipisicing elit. Nulla neque fugit consectetur nam facilis eaque. Lorem ipsum dolor sit</p>
+                            <h3 className='text-lg md:text-2xl font-bold mb-1 md:mb-3'>Customer Support</h3>
+                            <p className='md:w-3/4 mx-auto text-sm md:text-base'>Lorem ipsum dolor sit amet consectetur adipisicing elit. Nulla neque fugit consectetur nam facilis eaque. Lorem ipsum dolor sit</p>
                         </div>
 
                     </div>
@@ -36,11 +36,11 @@ const How = () => {
                     <div className='flex flex-col justify-center items-center bg-white rounded-md shadow-md py-6 md:py-12'>
                 
                         <div>
-                            <img src={BP} alt="" className='w-18 mb-3 md:mb-6' />
+                            <img src={BP} alt="" className='w-12 md:w-18 mb-1 md:mb-6' />
                         </div>
                         <div className='text-center px-5 md:px-0'>
-                            <h3 className='text-xl md:text-2xl font-bold mb-3'>Best Price</h3>
-                            <p className='md:w-3/4 mx-auto'>Lorem ipsum dolor sit amet consectetur adipisicing elit. Nulla neque fugit consectetur nam facilis eaque. Lorem ipsum dolor sit</p>
+                            <h3 className='text-xl md:text-2xl font-bold mb-1 md:mb-3'>Best Price</h3>
+                            <p className='md:w-3/4 mx-auto text-sm md:text-base'>Lorem ipsum dolor sit amet consectetur adipisicing elit. Nulla neque fugit consectetur nam facilis eaque. Lorem ipsum dolor sit</p>
                         </div>
 
                     </div>
@@ -48,11 +48,11 @@ const How = () => {
                     <div className='flex flex-col justify-center items-center bg-white rounded-md shadow-md py-6 md:py-12'>
                 
                         <div>
-                            <img src={Loc} alt="" className='w-18 mb-3 md:mb-6' />
+                            <img src={Loc} alt="" className='w-12 md:w-18 mb-1 md:mb-6' />
                         </div>
                         <div className='text-center px-5 md:px-0'>
-                            <h3 className='text-xl md:text-2xl font-bold mb-3'>Many Location</h3>
-                            <p className='md:w-3/4 mx-auto'>Lorem ipsum dolor sit amet consectetur adipisicing elit. Nulla neque fugit consectetur nam facilis eaque. Lorem ipsum dolor sit</p>
+                            <h3 className='text-xl md:text-2xl font-bold mb-1 md:mb-3'>Many Location</h3>
+                            <p className='md:w-3/4 mx-auto text-sm md:text-base'>Lorem ipsum dolor sit amet consectetur adipisicing elit. Nulla neque fugit consectetur nam facilis eaque. Lorem ipsum dolor sit</p>
                         </div>
 
                     </div>
