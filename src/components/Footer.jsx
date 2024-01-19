@@ -60,10 +60,10 @@ const Footer = () => {
         </div>
       </div>
 
-      <div className='absolute w-[90%] md:w-[700px] top-5 left-6 md:-top-[30%] md:right-1/4 md:left-1/4 bg-red-400 rounded-md flex p-5 md:p-10 justify-center items-center'>
-        <div>
+      <div className='absolute w-[90%] md:w-[50%] top-5 left-6 md:-top-[25%] md:left-[25%] bg-red-400 rounded-md flex p-5 md:p-10 justify-center items-center'>
+        <div className='w-3/4'>
             <h4 className='text-lg w-full md:text-3xl text-center font-bold mb-1 md:mb-3'>Do you have any questions?</h4>
-            <p className='text-center mb-1 md:mb-3 md:text-lg text-sm md:text-base'>Put your email address and get started</p>
+            <p className='text-center mb-1 md:mb-3 text-sm md:text-base'>Put your email address and get started</p>
             <div className='flex items-center bg-white px-2 py-1 md:py-3 gap-4 rounded-md text-sm md:text-base'>
               <input type="text " className='px-3 py-2 border-transparent outline-none w-full' placeholder='Enter your email'/>
               <button className='bg-red-500 text-white px-4 py-1 md:py-2 rounded'>Submit</button>
