@@ -1,7 +1,7 @@
 {
   "files": {
-    "main.css": "/Cars/static/css/main.de75c70a.css",
-    "main.js": "/Cars/static/js/main.a5204e63.js",
+    "main.css": "/Cars/static/css/main.ed53d976.css",
+    "main.js": "/Cars/static/js/main.23ef392a.js",
     "static/media/lambo4.png": "/Cars/static/media/lambo4.95bd789fa1f6753ab235.png",
     "static/media/Alfa-Romeo.png": "/Cars/static/media/Alfa-Romeo.1a4fbafcaa5fd8dafbf7.png",
     "static/media/car-flip.png": "/Cars/static/media/car-flip.c5a1bb2d9689c96e44a8.png",
@@ -21,11 +21,11 @@
     "static/media/Audi.png": "/Cars/static/media/Audi.f318175aa6023fe41564.png",
     "static/media/Tesla.png": "/Cars/static/media/Tesla.1ac721ca158cf1b1db7b.png",
     "index.html": "/Cars/index.html",
-    "main.de75c70a.css.map": "/Cars/static/css/main.de75c70a.css.map",
-    "main.a5204e63.js.map": "/Cars/static/js/main.a5204e63.js.map"
+    "main.ed53d976.css.map": "/Cars/static/css/main.ed53d976.css.map",
+    "main.23ef392a.js.map": "/Cars/static/js/main.23ef392a.js.map"
   },
   "entrypoints": [
-    "static/css/main.de75c70a.css",
-    "static/js/main.a5204e63.js"
+    "static/css/main.ed53d976.css",
+    "static/js/main.23ef392a.js"
   ]
 }
